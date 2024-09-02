@@ -1,0 +1,19 @@
+Componente Humana: La creación de un sistema experto requiere colaboración entre expertos humanos que proporcionan el conocimiento y los ingenieros del conocimiento que lo trasladan al sistema. Esta fase es compleja debido a las diferencias en lenguaje y experiencia entre las partes involucradas.
+
+Base de Conocimiento: Los expertos deben organizar y estructurar el conocimiento de manera clara, diferenciando entre datos específicos (efímeros) y conocimiento general (permanente). El conocimiento se almacena en la base de conocimiento, mientras que los datos se mantienen en la memoria de trabajo.
+
+Subsistema de Adquisición de Conocimiento: Este subsistema gestiona la incorporación de nuevo conocimiento a la base de datos, determinando qué información es relevante y nueva.
+
+Control de Coherencia: Se encarga de mantener la consistencia dentro de la base de conocimiento, evitando la inclusión de información contradictoria y ayudando a los expertos a proporcionar información coherente.
+
+Motor de Inferencia: Es el núcleo del sistema experto, encargado de aplicar el conocimiento a los datos para llegar a conclusiones. Maneja tanto situaciones deterministas como probabilísticas, siendo particularmente complejo en el manejo de incertidumbre.
+
+Subsistema de Adquisición de Conocimiento: Cuando el conocimiento inicial es insuficiente, este subsistema obtiene la información adicional necesaria para continuar el proceso de inferencia.
+
+Interfaz de Usuario: Actúa como el punto de interacción entre el usuario y el sistema, facilitando la entrada y salida de información. Una buena interfaz es crucial para la eficacia del sistema y la satisfacción del usuario.
+
+Subsistema de Ejecución de Órdenes: Permite al sistema realizar acciones basadas en las conclusiones del motor de inferencia, como ajustar el tráfico ferroviario o controlar una planta nuclear.
+
+Subsistema de Explicación: Proporciona justificaciones y explicaciones sobre las conclusiones y acciones del sistema, ayudando a los usuarios a entender el proceso y las decisiones del sistema.
+
+Subsistema de Aprendizaje: Permite al sistema experto aprender y mejorar, diferenciando entre aprendizaje estructural (modificación de reglas y conocimiento) y aprendizaje paramétrico (estimación de parámetros). También puede adquirir experiencia de los datos disponibles.
