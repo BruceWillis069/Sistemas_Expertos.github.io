@@ -1,0 +1,23 @@
+¿Qué es el módulo de explicaciones?
+El módulo de explicaciones es una parte del sistema experto que proporciona justificaciones y aclaraciones sobre las conclusiones y acciones que toma el sistema. Su función es ayudar a los usuarios a entender el proceso detrás de las decisiones del sistema y las razones por las que se toman ciertas acciones.
+
+¿Para qué sirve el módulo de explicaciones?
+Transparencia: Aumenta la confianza del usuario en el sistema al hacer transparentes las decisiones y los procesos de inferencia.
+Validación: Permite a los usuarios verificar y validar las conclusiones del sistema, asegurando que sean razonables y bien fundamentadas.
+Educación: Ayuda a los usuarios a comprender cómo el sistema llega a sus conclusiones, lo que puede ser útil para la capacitación y el aprendizaje sobre el dominio en cuestión.
+Responsabilidad: En contextos críticos, como el diagnóstico médico, permite a los usuarios (como los doctores) explicar las decisiones del sistema a otras personas, como los pacientes.
+¿Cómo funciona el módulo de explicaciones?
+El módulo de explicaciones interactúa con el motor de inferencia y el subsistema de ejecución de órdenes para proporcionar detalles sobre las decisiones tomadas por el sistema. Aquí se detallan sus funciones clave:
+
+Explicación de Conclusiones: Describe cómo el sistema llegó a una conclusión específica. Esto puede incluir la lógica utilizada, las reglas aplicadas y los datos considerados.
+
+Ejemplo: En un sistema de diagnóstico médico, si el sistema concluye que un paciente tiene una enfermedad específica, el módulo de explicaciones puede mostrar cómo esa conclusión se basa en la combinación de síntomas observados y las reglas de diagnóstico relacionadas.
+Explicación de Acciones: Justifica las acciones realizadas por el sistema en función de las conclusiones. Esto puede incluir el razonamiento detrás de decisiones operativas.
+
+Ejemplo: En un sistema de gestión de tráfico ferroviario, si el sistema decide retrasar un tren, el módulo de explicaciones puede mostrar cómo esa decisión optimiza el flujo de tráfico general y minimiza los retrasos.
+Interacción con el Usuario: Permite al usuario solicitar explicaciones adicionales y responder preguntas sobre el proceso de toma de decisiones del sistema.
+
+Ejemplo: Si un usuario no entiende por qué una solicitud fue rechazada por un sistema de procesamiento de pedidos, el módulo de explicaciones puede proporcionar detalles sobre el motivo del rechazo y las reglas que se aplicaron.
+Documentación del Proceso: Proporciona un registro detallado de las decisiones y los procesos, que puede ser útil para auditorías y revisiones posteriores.
+
+Ejemplo: En un sistema de auditoría financiera, el módulo de explicaciones puede documentar cómo se llegaron a ciertas conclusiones sobre las transacciones y las recomendaciones de auditoría.
