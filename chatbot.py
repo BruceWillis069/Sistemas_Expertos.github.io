@@ -1,6 +1,6 @@
 import sqlite3
 
-print('hola como estas?')
+print('hola como estas de que te gustaria hablar?')
 # Conectar a la base de datos (se crea si no existe)
 conn = sqlite3.connect('chatbot.db')
 c = conn.cursor()
