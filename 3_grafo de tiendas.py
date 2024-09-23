@@ -41,3 +41,6 @@ punto_inicio = 'Entrada'
 tienda_destino = 'Tienda F'
 ruta = centro_comercial.buscar_ruta(punto_inicio, tienda_destino)
 print("Ruta encontrada:", ruta)
+
+#simula cómo encontrarías el camino más corto dentro de un centro comercial entre dos tiendas.
+
